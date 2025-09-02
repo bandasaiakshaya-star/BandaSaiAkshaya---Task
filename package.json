@@ -1,0 +1,35 @@
+{
+  "name": "interview_homework",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "ts-node src/server.ts",
+    "lint": "eslint . --ext .ts"
+  },
+  "dependencies": {
+    "@envelop/core": "^5.3.0",
+    "@envelop/parser-cache": "^9.0.0",
+    "@envelop/response-cache": "^8.0.0",
+    "@envelop/validation-cache": "^9.0.0",
+    "@graphql-tools/load-files": "^7.0.1",
+    "@graphql-tools/merge": "^9.1.1",
+    "@graphql-tools/schema": "^10.0.25",
+    "graphql": "^16.11.0",
+    "graphql-yoga": "^5.15.1",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "@types/uuid": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.41.0",
+    "@typescript-eslint/parser": "^8.41.0",
+    "eslint": "^8.57.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
